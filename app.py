@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 
 # Load model
-with open('credit_card_model.pkl', 'rb') as file:
+with open('credit_card_fraud.pkl', 'rb') as file:
     model = pickle.load(file)
 
 st.title("💳 Credit Card Fraud Detection")
